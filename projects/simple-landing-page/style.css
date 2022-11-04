@@ -21,16 +21,24 @@ ul {
 }
 
 a {
-  color: black;
   text-decoration: none;
 }
 
-body {
+/* body {
   margin: 0px 150px;
+} */
+
+.home-picture,
+nav,
+.container-home,
+.container-content,
+.container-content1 {
+  padding: 0px 150px;
 }
+
 .home-picture img {
-  width: 850px;
-  height: 900px;
+  width: 650px;
+  height: 700px;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -58,6 +66,7 @@ nav .divider {
   margin: 0px 40px;
   height: 32px;
   border: 1px solid black;
+  background-color: #000;
 }
 
 nav .shadow-container-nav {
@@ -70,12 +79,12 @@ nav .links {
 }
 
 .links a {
+  color: black;
   font-weight: 500;
   font-size: 16px;
 }
 
-.links a:hover,
-.links a:active {
+.links a:hover {
   color: #6c63ff;
 }
 
@@ -87,8 +96,12 @@ nav .links {
   color: white;
   font-weight: 500;
   font-size: 16px;
+  box-shadow: rgba(108, 99, 255, 0.4) 0px 0px 48px;
 }
 
+.button-navbar a {
+  color: white;
+}
 /* .button-navbar:hover {
   box-shadow: rgba(108, 99, 255, 0.3) 0px 0px 32px;
 } */
@@ -101,7 +114,7 @@ nav .links {
 }
 
 .container-home .title {
-  width: 700px;
+  width: 600px;
   font-size: 44px;
   font-weight: 600;
 }
@@ -112,12 +125,49 @@ nav .links {
   font-size: 20px;
   color: var(--gray-color);
 }
-.container-content2 {
+
+.button-primary-home a {
+  color: white;
+}
+
+.button-second-home a {
+  color: var(--purple-color);
+}
+
+.container-home .button-container-home {
+  display: flex;
+  margin-top: 60px;
+  gap: 40px;
+}
+
+.container-home .button-container-home .button-primary-home {
+  border: 0px solid var(--purple-color);
+  background-color: var(--purple-color);
+  border-radius: 16px;
+  padding: 10px 42px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: rgba(108, 99, 255, 0.4) 0px 0px 48px;
+}
+
+.container-home .button-container-home .button-second-home {
+  border: 2px solid var(--purple-color);
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px 42px;
+  color: var(--purple-color);
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: rgba(108, 99, 255, 0.4) 0px 0px 48px;
+}
+
+.container-content {
   height: 100vh;
   background-color: var(--light-purple-color);
 }
 
-.container-content3 {
+.container-content2 {
   height: 100vh;
   background-color: green;
 }
