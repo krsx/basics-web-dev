@@ -4,7 +4,7 @@
   --white-color: #fff;
   --purple-color: #6c63ff;
   --black-color: #000;
-  --light-purple-color: #dad8ff;
+  --light-purple-color: #dad8ffde;
   --gray-color: #adadad;
   --shadow-button-purple-color: #9296ff;
 }
@@ -53,7 +53,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: whi;
+
+  z-index: 2;
 }
 
 .logo img {
@@ -185,7 +186,7 @@ nav .links {
 
 .container-content .container-content-card {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .container-content-card .card1,
@@ -537,10 +538,54 @@ nav .links {
 
 /* CONTENT PAGE-1 */
 
+/* CONTENT PAGE-2 */
 .container-content2 {
   height: 100vh;
-  background-color: green;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
+.container-content2 .quotes {
+  width: 1000px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.container-content2 .quotes b {
+  font-weight: 600;
+  color: var(--purple-color);
+}
+
+.container-content2 .quotes-person {
+  width: 1000px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+/* CONTENT PAGE-2 */
+
+/* CONTENT PAGE-3 */
+.container-content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: var(--light-purple-color);
+  display: flex;
+}
+
+.container-content3 .content3-wrapper {
+  height: 400px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 20px;
+}
+/* CONTENT PAGE-3 */
 
 .footer-title {
   font-size: 16px;
@@ -553,10 +598,12 @@ nav .links {
 }
 
 footer {
+  margin: 0px 120px;
   background-color: white;
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* border-top: 1px solid var(--gray-color); */
 }
