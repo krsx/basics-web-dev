@@ -580,11 +580,43 @@ nav .links {
 }
 
 .container-content3 .content3-wrapper {
-  height: 400px;
-  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 360px;
+  width: 960px;
+  padding: 24px;
   background-color: white;
   border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 48px;
 }
+
+.container-content3 .content3-wrapper .title {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.container-content3 .content3-wrapper .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.container-content3 .content3-wrapper .form-wrapper {
+  display: flex;
+}
+
+/* .container-content3 .content3-wrapper .form-wrapper .button-form {
+  border: 0px solid var(--purple-color);
+  background-color: var(--purple-color);
+  border-radius: 16px;
+  padding: 8px 42px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: rgba(108, 99, 255, 0.4) 0px 0px 48px;
+} */
+
 /* CONTENT PAGE-3 */
 
 .footer-title {
