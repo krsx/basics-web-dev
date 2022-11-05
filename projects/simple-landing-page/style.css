@@ -32,7 +32,7 @@ a {
 nav,
 .container-home,
 .container-content {
-  padding: 0px 150px;
+  padding: 0px 120px;
 }
 
 .home-picture img {
@@ -176,16 +176,16 @@ nav .links {
 }
 
 .container-content .container-content-title {
-  width: 500px;
+  width: 380px;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 38px;
   text-align: center;
   margin-bottom: 60px;
 }
 
 .container-content .container-content-card {
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 
 .container-content-card .card1,
@@ -224,23 +224,27 @@ nav .links {
 .container-content-card .card3 .card3-desc,
 .container-content-card .card4 .card4-desc {
   width: 100%;
-  height: 41%;
+  height: 50%;
   background-color: white;
   border-radius: 0px 0px 20px 20px;
-  top: 208px;
+  top: 175px;
   position: relative;
 }
 
+/* CARD-1 */
 .container-content-card .card1 .card1-desc .card1-desc-title {
   font-size: 18px;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .container-content-card .card1 .card1-desc .card1-desc-price {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 10px;
 }
 
 .container-content-card .card1 .card1-desc .card1-desc-price .price-now {
@@ -250,8 +254,37 @@ nav .links {
 .container-content-card .card1 .card1-desc .card1-desc-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  /* justify-content: space-evenly; */
+
   height: 100%;
+  padding: 0px 20px;
+}
+
+.container-content-card .card1 .card1-desc .card1-desc-wrapper .progress-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #e5e5e5;
+}
+
+.container-content-card
+  .card1
+  .card1-desc
+  .card1-desc-wrapper
+  .progress-bar
+  .progress-now {
+  height: 8px;
+  width: 60%;
+  border-radius: 20px;
+  background-color: var(--purple-color);
+}
+
+.container-content-card
+  .card1
+  .card1-desc
+  .card1-desc-wrapper
+  .shadow-container-card1 {
+  flex: 1;
 }
 
 .container-content-card
@@ -259,16 +292,31 @@ nav .links {
   .card1-desc
   .card1-desc-wrapper
   .card-desc-button {
+  margin-bottom: 20px;
   justify-self: flex-end;
   border: 0px solid var(--purple-color);
   background-color: var(--purple-color);
   border-radius: 16px;
-  padding: 10px;
+  padding: 8px;
   color: white;
   font-weight: 500;
   font-size: 14px;
   box-shadow: rgba(108, 99, 255, 0.4) 0px 0px 48px;
 }
+/* CARD-1 */
+
+/* CARD-2 */
+
+/* CARD-2 */
+
+/* CARD-3 */
+
+/* CARD-3 */
+
+/* CARD-4 */
+
+/* CARD-4 */
+
 /* CONTENT PAGE-1 */
 
 .container-content2 {
