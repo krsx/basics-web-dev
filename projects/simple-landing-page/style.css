@@ -584,29 +584,32 @@ nav .links {
   flex-direction: column;
   justify-content: center;
   height: 360px;
-  width: 960px;
-  padding: 24px;
+  width: 850px;
+  padding: 48px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 48px;
+  /* box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 48px; */
 }
 
 .container-content3 .content3-wrapper .title {
   font-weight: 500;
   font-size: 28px;
+  margin-bottom: 6px;
 }
 
 .container-content3 .content3-wrapper .subtitle {
   font-weight: 400;
   font-size: 16px;
   color: var(--gray-color);
+  margin-bottom: 20px;
 }
 
 .container-content3 .content3-wrapper .form-wrapper {
   display: flex;
+  gap: 20px;
 }
 
-/* .container-content3 .content3-wrapper .form-wrapper .button-form {
+.container-content3 .content3-wrapper .form-wrapper .button-form {
   border: 0px solid var(--purple-color);
   background-color: var(--purple-color);
   border-radius: 16px;
@@ -615,8 +618,49 @@ nav .links {
   font-weight: 500;
   font-size: 16px;
   box-shadow: rgba(108, 99, 255, 0.4) 0px 0px 48px;
-} */
+}
 
+.container-content3 .content3-wrapper .form-wrapper .button-form a {
+  color: white;
+}
+
+.container-content3 .content3-wrapper .form-wrapper .form {
+  width: 100%;
+}
+
+.container-content3
+  .content3-wrapper
+  .form-wrapper
+  .form
+  form
+  input[type="text"] {
+  width: 100%;
+  font-weight: 500;
+  color: black;
+  box-sizing: border-box;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  border: 0px;
+  border: 2px solid #f5f5f5;
+  padding: 16px 20px;
+}
+
+.container-content3
+  .content3-wrapper
+  .form-wrapper
+  .form
+  form
+  input[type="text"]:focus {
+  width: 100%;
+  outline: none !important;
+  background-color: var(--light-purple-color);
+  border: 2px solid var(--purple-color);
+}
+
+::placeholder {
+  font-weight: 400;
+}
 /* CONTENT PAGE-3 */
 
 .footer-title {
